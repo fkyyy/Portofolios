@@ -159,6 +159,26 @@ nav ul li a {
     right: 35px;
 }
 
+/* Style nav saat aktif */
+nav.nav-active {
+    transform: translateX(0); /* Contoh: tampilkan menu dengan sliding */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Animasi burger */
+.burger.toggle-burger div:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.toggle-burger div:nth-child(2) {
+    opacity: 0; /* Sembunyikan garis tengah */
+}
+
+.burger.toggle-burger div:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+
 #hero {
     height: 720px;
     display: grid;
@@ -425,7 +445,7 @@ nav ul li a {
 
 /*footer section*/
 footer {
-    padding: 4rem 0;
+    padding: 2rem 0;
     background: var(--linecolor);
     text-align: center;
 } 
@@ -443,5 +463,5 @@ footer {
 }
 
 .footer-icons a:hover svg {
-    fill: #000;
+    fill: #ff0000;
 }
