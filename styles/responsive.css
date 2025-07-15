@@ -1,21 +1,20 @@
 @media screen and (max-width: 10000px) {
     p {
-        font-size: 0.9rem;
-        line-height: 1.8rem;
+        font-size: 0.95rem;
+        line-height: 1.85rem;
     }
 
     .grid-3 {
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .skills-right ul li {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
-
 }
 
 @media screen and (max-width: 825px) {
-    /*burger*/
+
     .burger {
         display: block;
         cursor: pointer;
@@ -95,6 +94,8 @@
 }
 
 @media screen and (max-width: 640px) {
+    /* Further adjustments for very small screens */
+
     .section-title {
         font-size: 1.3rem;
     }
